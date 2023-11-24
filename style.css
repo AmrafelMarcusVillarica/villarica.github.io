@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,300;1,700&display=swap');
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .parent {
     width: 100% ;
     height: 1024px;
+    position: absolute;
 }
 
 .logo {
@@ -24,18 +25,18 @@
 
 .p1 {
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin: 0 250px;
     padding: 25px 0 0 0;
     width: 80%;
+    font-family: 'Julius Sans One', sans-serif;
 }
 .p2 {
     font-size: 25px;  
-    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin: 0 250px;
     width: 80%;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 .nav {
@@ -50,6 +51,8 @@
     text-decoration: none;
     color: black;
     padding: 0 130px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 18px;
 }
 .b {
     float: left;
@@ -58,20 +61,120 @@
     height: 18.44px;
     background-color: #4E4E4E;
     padding: 20px 130px;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
+.h2 {
+    text-align: center; 
+    padding-top: 30px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.h1 {
+    text-align: center; 
+    line-height: 1px
+}
 .content {
     width: 100%;
-    height: 743.34px;
+    height: 401.67px;
 }
 
 .img1 {
-    padding: 30px 50px;
+    width: 40%;
+    padding: 40px 0 0 165px;
+    float: left;
 }
+
+.cont1 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 90px 0;
+    margin-left: 10px;
+    line-height: 1.3;
+    float: left;
+}
+
+.content2 {
+    width: 100%;
+    height: 341.67px;
+}
+
+.img2 {
+    width: 20%;
+    padding: 0 230px 50px 0;
+    float: right;
+}
+
+.cont2 {
+    font-size: 20px;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px 90px 40px 0;
+    line-height: 1.3;
+}
+
+.button1 {
+    background-color: #003219;
+    font-family: 'Julius Sans One', sans-serif;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 70px;
+    margin-left: 420px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+  }
 
 .footer {
     display: flex;
     width: 100%;
-    height: 106px;
+    height: 130px;
     background-color: #101010;
+}
+
+.foot1 {
+    float: left;
+    width: 20%;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    border: 1px solid #fff;
+    height: 30px;
+    padding: 20px 30px;
+    margin: 30px;
+}
+
+.foot2 {
+    float: left;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: left;
+    height: 30px;
+    padding: 20px 20px;
+    margin: 5px 0 0 50px;
+    line-height: 1;
+}
+
+.foot3 {
+    float: left;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    height: 30px;
+    padding: 20px 20px;
+    margin: 5px 0 0 50px;
+    line-height: 1;
+}
+
+.soc {
+    width: 40%;
+    float: right;
+    margin-top: 75px;
+    margin-right: 10px;
 }
